@@ -5,3 +5,4 @@ creating different data pipelines along with a Neural Network model for object d
 1) Python version 3.6 or higehr (used: Python 3.7.14)
 2) PyTorch version 1.4 or higher 
 3) Torchvision version 0.8 or higher 
+4) NumPy version 1.16 or higher 
