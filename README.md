@@ -9,3 +9,4 @@ creating different data pipelines along with a Neural Network model for object d
 5) Matplotlib version 3.0 or higher 
 
 ## Project Objective: 
+To achieve a detection accuracy of greater than 70%
