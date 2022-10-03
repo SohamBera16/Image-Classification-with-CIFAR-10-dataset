@@ -9,7 +9,7 @@ creating different data pipelines along with a Neural Network model for object d
 5) Matplotlib version 3.0 or higher 
 
 ## Project Objective: 
-To achieve a detection accuracy of greater than 70% for 10 different object categories in the CIFAR-10 image dataset containing a total of 60000 images of 32 by 32 pixel size by using various deep learning technologies based on neural networks e.g. dense neural networks, Convolutional neural networks, Transfer Learning, etc.
+To achieve a detection accuracy of greater than 70% for 10 different object categories in the CIFAR-10 image dataset by using various deep learning technologies based on neural networks e.g. dense neural networks, Convolutional neural networks, Transfer Learning, etc.
 
 ## Data collection:
-The dataset used for this project is the famous CIFAR10 dataset
+The dataset used for this project is the famous CIFAR10 dataset 
