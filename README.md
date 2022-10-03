@@ -15,6 +15,8 @@ To achieve a detection accuracy of greater than 70% for 10 different object cate
 The dataset used for this project is the famous CIFAR10 dataset containing a total of 60000 images of 32 by 32 pixel size which is available in the PyTorch framework's CIFAR10 object from torchvision.datasets module. The training dataset is transformed for increasing the variation using the transforms module from torchvision package.
 Once the dataset is created, DataLoaders are also created from the torch.utils.data module for both the train and the test set.
 
+![CIFAR data](https://github.com/SohamBera16/Image-Classification-with-CIFAR-10-dataset/blob/main/cifar10.png)
+
 ## Data Exploration: 
 The images in the dataset are viewed using the show5 function defined which takes a data loader as an argument.
 
