@@ -19,5 +19,5 @@ Once the dataset is created, DataLoaders are also created from the torch.utils.d
 The images in the dataset are viewed using the show5 function defined which takes a data loader as an argument.
 
 ## Model generation:
-Using the layers in torch.nn (which has been imported as nn) and the torch.nn.functional module (imported as F), a neural network based on the parameters of the dataset.
+Using the layers in torch.nn (which has been imported as nn) and the torch.nn.functional module (imported as F), a neural network has been constructed based on the parameters of the dataset.
 
