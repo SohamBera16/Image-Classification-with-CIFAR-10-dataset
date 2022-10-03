@@ -16,3 +16,4 @@ The dataset used for this project is the famous CIFAR10 dataset containing a tot
 Once the dataset is created, DataLoaders are also created from the torch.utils.data module for both the train and the test set.
 
 ## Data Exploration: 
+The images in the dataset are viewed 
