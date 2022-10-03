@@ -17,3 +17,6 @@ Once the dataset is created, DataLoaders are also created from the torch.utils.d
 
 ## Data Exploration: 
 The images in the dataset are viewed using the show5 function defined which takes a data loader as an argument.
+
+## Model generation:
+
