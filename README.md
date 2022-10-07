@@ -20,6 +20,8 @@ Once the dataset is created, DataLoaders are also created from the torch.utils.d
 ## Data Exploration: 
 The images in the dataset are viewed using the show5 function defined which takes a data loader as an argument. ![cifar sample](https://github.com/SohamBera16/Image-Classification-with-CIFAR-10-dataset/blob/main/cifar10%20data.png)
 
+## Data 
+
 ## Model generation:
 Using the layers in torch.nn (which has been imported as nn) and the torch.nn.functional module (imported as F), a neural network has been constructed based on the parameters of the dataset. Then the cross entropy loss function and an optimizer - Stochastic Gradient Descent (SGD) were created for the model training. 
 
