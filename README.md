@@ -24,7 +24,7 @@ The images in the dataset are viewed using the show5 function defined which take
 In order to increase the dataset so that the model learns better and generalizes well (instead of overfitting),  various data augmentation techniques like - _Normalization, Rotation, Flipping, and Cropping_ have been introduced to the CIFAR-10 dataset. 
 
 ## Model generation:
-Using the layers in torch.nn (which has been imported as nn) and the torch.nn.functional module (imported as F), a neural network has been constructed based on the parameters of the dataset. Then the cross entropy loss function and an optimizer - Stochastic Gradient Descent (SGD) were created for the model training. 
+Using the layers in torch.nn (which has been imported as nn) and the torch.nn.functional module (imported as F), a neural network has been constructed based on the parameters of the dataset. Then the NLL loss function and an optimizer - Adam were created for the model training. 
 
 N.B. The project is undergoing and hence the latest updates will be documented gradually and may not be completely consistent with the latest code updates. 
 
