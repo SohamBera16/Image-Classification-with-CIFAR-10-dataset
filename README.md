@@ -21,7 +21,7 @@ Once the dataset is created, DataLoaders are also created from the torch.utils.d
 The images in the dataset are viewed using the show5 function defined which takes a data loader as an argument. ![cifar sample](https://github.com/SohamBera16/Image-Classification-with-CIFAR-10-dataset/blob/main/cifar10%20data.png)
 
 ## Data Preparation
-The training dataset containing 50K images have been divided into train and validation sets with a ratio of 9:1.
+The training dataset containing 50K images have been divided into train and validation sets with a ratio of 9:1. The test dataset contains the rest of the images i.e 10K images.
 
 ## Data Augmentation
 The training dataset is transformed for increasing the variation using the transforms module from torchvision package. In order to increase the dataset so that the model learns better and generalizes well (instead of overfitting),  various data augmentation techniques like - _Normalization, Rotation, Flipping, and Cropping_ have been introduced to the CIFAR-10 dataset. 
