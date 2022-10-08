@@ -12,13 +12,16 @@ creating different data pipelines along with a Neural Network model for object d
 To achieve a detection accuracy of greater than 70% for 10 different object categories in the CIFAR-10 image dataset by using various deep learning technologies based on neural networks e.g. dense neural networks, Convolutional neural networks, Transfer Learning, etc.
 
 ## Data collection:
-The dataset used for this project is the famous CIFAR10 dataset containing a total of 60000 images of 32 by 32 pixel size which is available in the PyTorch framework's CIFAR10 object from torchvision.datasets module. The training dataset is transformed for increasing the variation using the transforms module from torchvision package.
+The dataset used for this project is the famous CIFAR10 dataset containing a total of 60000 images of 32 by 32 pixel size which is available in the PyTorch framework's CIFAR10 object from torchvision.datasets module.
 Once the dataset is created, DataLoaders are also created from the torch.utils.data module for both the train and the test set.
 
 ![CIFAR data](https://github.com/SohamBera16/Image-Classification-with-CIFAR-10-dataset/blob/main/cifar10.png)
 
 ## Data Exploration: 
 The images in the dataset are viewed using the show5 function defined which takes a data loader as an argument. ![cifar sample](https://github.com/SohamBera16/Image-Classification-with-CIFAR-10-dataset/blob/main/cifar10%20data.png)
+
+## Data Preparation
+The training dataset is The training dataset is transformed for increasing the variation using the transforms module from torchvision package.
 
 ## Data Augmentation
 In order to increase the dataset so that the model learns better and generalizes well (instead of overfitting),  various data augmentation techniques like - _Normalization, Rotation, Flipping, and Cropping_ have been introduced to the CIFAR-10 dataset. 
