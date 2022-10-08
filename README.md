@@ -21,10 +21,10 @@ Once the dataset is created, DataLoaders are also created from the torch.utils.d
 The images in the dataset are viewed using the show5 function defined which takes a data loader as an argument. ![cifar sample](https://github.com/SohamBera16/Image-Classification-with-CIFAR-10-dataset/blob/main/cifar10%20data.png)
 
 ## Data Preparation
-The training dataset is The training dataset is transformed for increasing the variation using the transforms module from torchvision package.
+The training dataset containing 50K images have been divided into train and validation sets with a ratio of 9:1.
 
 ## Data Augmentation
-In order to increase the dataset so that the model learns better and generalizes well (instead of overfitting),  various data augmentation techniques like - _Normalization, Rotation, Flipping, and Cropping_ have been introduced to the CIFAR-10 dataset. 
+The training dataset is transformed for increasing the variation using the transforms module from torchvision package. In order to increase the dataset so that the model learns better and generalizes well (instead of overfitting),  various data augmentation techniques like - _Normalization, Rotation, Flipping, and Cropping_ have been introduced to the CIFAR-10 dataset. 
 
 ## Model generation:
 Using the layers in torch.nn (which has been imported as nn) and the torch.nn.functional module (imported as F), a neural network has been constructed based on the parameters of the dataset.  Various Transfer Learning architectures with pretrained weights like Resnet18 and DenseNet121 were imported for testing as well. The NLL loss function and Adam optimizer were created for the model training. 
