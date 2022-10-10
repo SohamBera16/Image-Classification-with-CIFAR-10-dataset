@@ -30,7 +30,7 @@ The training dataset is transformed for increasing the variation using the trans
 Using the layers in torch.nn (which has been imported as nn) and the torch.nn.functional module (imported as F), a neural network has been constructed based on the parameters of the dataset.  Various Transfer Learning architectures with pretrained weights like Resnet18 and DenseNet121 were imported for testing as well. The NLL loss function and Adam optimizer were created for the model training. 
 
 ## Model Evaluation:
-As there is no
+As there is no imbalance 
 
 ## Saving the models for future inferences:
 
