@@ -33,7 +33,7 @@ Using the layers in torch.nn (which has been imported as nn) and the torch.nn.fu
 As there is no class imbalance in the training dataset, accuracy has been chosen as the model evaluation metric. 
 
 ## Saving the models for future inferences:
-All the models, i.e. the handcrafted CNN model, Resnet18, 
+All the models, i.e. the handcrafted CNN model, Resnet18, and Densenet121 with fine tuning 
 
 ## Final Results:
 
