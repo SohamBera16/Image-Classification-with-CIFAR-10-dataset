@@ -36,7 +36,7 @@ As there is no class imbalance in the training dataset, accuracy has been chosen
 All the models, i.e. the handcrafted CNN model, Resnet18, and Densenet121 with fine tuning were saved for future inference applications.
 
 ## Final Results:
-The pretrained transfer learning models with fine tuning   
+The pretrained transfer learning models with fine tuning improved the accuracy metric by 20% even with a training of 20 epochs due to resource limitation. 
 
 ## Future Work:
 
