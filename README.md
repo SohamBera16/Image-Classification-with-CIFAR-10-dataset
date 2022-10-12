@@ -39,7 +39,7 @@ All the models, i.e. the handcrafted CNN model, Resnet18, and Densenet121 with f
 The pretrained transfer learning models, in particular Densenet121, with fine tuning improved the accuracy metric by 20% even with a training of 20 epochs due to resource limitation. 
 
 ## Future Work:
-Running the model for 
+Running the model for more 
 
 N.B. The project is undergoing and hence the latest updates will be documented gradually and may not be completely consistent with the latest code updates. 
 
