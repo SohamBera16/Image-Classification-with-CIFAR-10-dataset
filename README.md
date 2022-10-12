@@ -36,7 +36,7 @@ As there is no class imbalance in the training dataset, accuracy has been chosen
 All the models, i.e. the handcrafted CNN model, Resnet18, and Densenet121 with fine tuning were saved for future inference applications.
 
 ## Final Results:
-The
+The transfer 
 
 ## Future Work:
 
