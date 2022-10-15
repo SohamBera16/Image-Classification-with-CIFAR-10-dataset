@@ -41,5 +41,5 @@ The pretrained transfer learning models, in particular Densenet121, with fine tu
 ## Future Work:
 Running the model for more number of epochs, Testing with other models, Performing hyperparameter optimization with a larger search space, etc.
 
-N.B. The project is undergoing and hence the latest updates will be documented gradually and may not 
+N.B. The project is undergoing and hence the latest updates will be documented gradually and may not be 
 
